@@ -1,4 +1,4 @@
-const CACHE_NAME = "dji-lito-guide-v2";
+const CACHE_NAME = "dji-lito-guide-v3";
 const APP_FILES = [
   "./",
   "./index.html",

@@ -37,6 +37,29 @@
     '<line x1="290" y1="100" x2="260" y2="125" stroke="#27c093" stroke-width="3"/><polygon points="268,118 258,128 272,128" fill="#27c093"/>' +
     '</svg>';
 
+
+
+  var svgPhoneCable =
+    '<svg class="diagram" viewBox="0 0 440 220" role="img" aria-label="Кабелът за телефона на дистанционното">' +
+    '<rect x="115" y="105" width="210" height="72" rx="16" fill="#2b3947" stroke="#9aa7b4" stroke-width="2"/>' +
+    '<rect x="155" y="50" width="130" height="40" rx="12" fill="#1a2330" stroke="#9aa7b4" stroke-width="2"/>' +
+    '<line x1="220" y1="90" x2="220" y2="105" stroke="#9aa7b4" stroke-width="3"/>' +
+    '<path d="M205 68 C195 90, 176 100, 160 114" fill="none" stroke="#27c093" stroke-width="4" stroke-linecap="round"/>' +
+    '<rect x="148" y="110" width="18" height="9" rx="3" fill="#27c093"/>' +
+    '<line x1="180" y1="56" x2="180" y2="36" stroke="#ffb02e" stroke-width="3"/>' +
+    '<polygon points="174,42 186,42 180,30" fill="#ffb02e"/>' +
+    '<text x="189" y="28" fill="#ffb02e" font-size="12">1) издърпай горния държач нагоре</text>' +
+    '<line x1="145" y1="122" x2="108" y2="122" stroke="#3da5ff" stroke-width="3"/>' +
+    '<polygon points="114,116 114,128 102,122" fill="#3da5ff"/>' +
+    '<text x="12" y="116" fill="#3da5ff" font-size="12">2) хвани буксата и я издърпай</text>' +
+    '<text x="18" y="132" fill="#3da5ff" font-size="12">от каналчето в горния държач</text>' +
+    '<rect x="308" y="34" width="72" height="120" rx="14" fill="#0c1017" stroke="#cfd8e3" stroke-width="2"/>' +
+    '<rect x="332" y="44" width="24" height="5" rx="2" fill="#cfd8e3" opacity="0.8"/>' +
+    '<line x1="286" y1="80" x2="308" y2="80" stroke="#27c093" stroke-width="4"/>' +
+    '<polygon points="302,74 314,80 302,86" fill="#27c093"/>' +
+    '<text x="266" y="170" fill="#27c093" font-size="12">3) включи буксата в телефона</text>' +
+    '<text x="150" y="202" fill="#9aa7b4" font-size="12">Няма отделно външно капаче — кабелът е скрит в горния държач.</text>' +
+    '</svg>';
   var svgController =
     '<svg class="diagram" viewBox="0 0 420 200" role="img" aria-label="Дистанционно">' +
     '<rect x="120" y="70" width="180" height="80" rx="14" fill="#2b3947" stroke="#9aa7b4" stroke-width="2"/>' +
@@ -78,9 +101,18 @@
       ]
     },
     {
+      id: "phonecable", emoji: "📱", tab: "Кабел", title: "Кабелът към телефона", hue: 228,
+      blocks: [
+        { type: "diagram", svg: svgPhoneCable },
+        { type: "tip", html: "<b>Не търсиш отделно външно капаче.</b> Кабелът е скрит <b>в горния държач за телефона</b> на дистанционното. Като издърпаш държача нагоре, ще видиш късото кабелче, прибрано в каналче." },
+        { type: "check", title: "Стъпки", items: ["Издърпай горния държач за телефона нагоре", "Виж прибрания кабел от вътрешната страна", "Хвани само буксата и я издърпай внимателно навън", "Пъхни телефона в държача", "Включи буксата в телефона"] },
+        { type: "warn", html: "⚠️ Не дърпай силно по средата на кабела и не отваряй корпуса с нокът — кабелът не е под отделно капаче, а е прибран в самия държач." }
+      ]
+    },
+    {
       id: "rc", emoji: "🎮", tab: "Дистанционно", title: "Дистанционно + DJI Fly", hue: 260,
       blocks: [
-        { type: "check", title: "Подготовка", items: ["Завий джойстиците на местата им", "Инсталирай DJI Fly (за RC-N3 — на телефона)", "RC-N3: издърпай държача и свържи кабела", "Android: избери „само зареждане“ при USB запитване", "Включи дистанционното; изправи антените"] },
+        { type: "check", title: "Подготовка", items: ["Завий джойстиците на местата им", "Инсталирай DJI Fly (за RC-N3 — на телефона)", "Издърпай горния държач и свържи кабела към телефона", "Android: избери „само зареждане“ при USB запитване", "Включи дистанционното; изправи антените"] },
         { type: "tip", html: "🔗 Комплектите идват свързани. Повторно: DJI Fly → камера → „Connect to Aircraft“, задръж бутона на дрона 4+ сек." }
       ]
     },
