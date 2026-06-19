@@ -37,29 +37,6 @@
     '<line x1="290" y1="100" x2="260" y2="125" stroke="#27c093" stroke-width="3"/><polygon points="268,118 258,128 272,128" fill="#27c093"/>' +
     '</svg>';
 
-
-
-  var svgPhoneCable =
-    '<svg class="diagram" viewBox="0 0 440 220" role="img" aria-label="Кабелът за телефона на дистанционното">' +
-    '<rect x="115" y="105" width="210" height="72" rx="16" fill="#2b3947" stroke="#9aa7b4" stroke-width="2"/>' +
-    '<rect x="155" y="50" width="130" height="40" rx="12" fill="#1a2330" stroke="#9aa7b4" stroke-width="2"/>' +
-    '<line x1="220" y1="90" x2="220" y2="105" stroke="#9aa7b4" stroke-width="3"/>' +
-    '<path d="M205 68 C195 90, 176 100, 160 114" fill="none" stroke="#27c093" stroke-width="4" stroke-linecap="round"/>' +
-    '<rect x="148" y="110" width="18" height="9" rx="3" fill="#27c093"/>' +
-    '<line x1="180" y1="56" x2="180" y2="36" stroke="#ffb02e" stroke-width="3"/>' +
-    '<polygon points="174,42 186,42 180,30" fill="#ffb02e"/>' +
-    '<text x="189" y="28" fill="#ffb02e" font-size="12">1) издърпай горния държач нагоре</text>' +
-    '<line x1="145" y1="122" x2="108" y2="122" stroke="#3da5ff" stroke-width="3"/>' +
-    '<polygon points="114,116 114,128 102,122" fill="#3da5ff"/>' +
-    '<text x="12" y="116" fill="#3da5ff" font-size="12">2) хвани буксата и я издърпай</text>' +
-    '<text x="18" y="132" fill="#3da5ff" font-size="12">от каналчето в горния държач</text>' +
-    '<rect x="308" y="34" width="72" height="120" rx="14" fill="#0c1017" stroke="#cfd8e3" stroke-width="2"/>' +
-    '<rect x="332" y="44" width="24" height="5" rx="2" fill="#cfd8e3" opacity="0.8"/>' +
-    '<line x1="286" y1="80" x2="308" y2="80" stroke="#27c093" stroke-width="4"/>' +
-    '<polygon points="302,74 314,80 302,86" fill="#27c093"/>' +
-    '<text x="266" y="170" fill="#27c093" font-size="12">3) включи буксата в телефона</text>' +
-    '<text x="150" y="202" fill="#9aa7b4" font-size="12">Няма отделно външно капаче — кабелът е скрит в горния държач.</text>' +
-    '</svg>';
   var svgController =
     '<svg class="diagram" viewBox="0 0 420 200" role="img" aria-label="Дистанционно">' +
     '<rect x="120" y="70" width="180" height="80" rx="14" fill="#2b3947" stroke="#9aa7b4" stroke-width="2"/>' +
@@ -70,6 +47,40 @@
     '<rect x="137" y="54" width="22" height="10" rx="3" fill="#3da5ff"/><text x="120" y="48" fill="#3da5ff" font-size="10">наклон</text>' +
     '<rect x="263" y="54" width="22" height="10" rx="3" fill="#27c093"/><text x="288" y="48" fill="#27c093" font-size="10">zoom</text>' +
     '<rect x="196" y="100" width="30" height="22" rx="4" fill="#ffb02e"/><text x="188" y="138" fill="#ffb02e" font-size="10">снимка / видео</text>' +
+    '</svg>';
+
+  var svgRcButtons =
+    '<svg class="diagram" viewBox="0 0 460 300" role="img" aria-label="Бутони на DJI RC-N3">' +
+    '<rect x="150" y="14" width="160" height="44" rx="8" fill="#0c1017" stroke="#3da5ff" stroke-width="2"/>' +
+    '<text x="166" y="41" fill="#9aa7b4" font-size="12">телефон + DJI Fly</text>' +
+    '<rect x="95" y="74" width="270" height="180" rx="26" fill="#2b3947" stroke="#9aa7b4" stroke-width="2"/>' +
+    '<rect x="108" y="66" width="46" height="16" rx="6" fill="#2f7dd1"/>' +
+    '<circle cx="96" cy="74" r="11" fill="#2f7dd1"/><text x="92" y="78" fill="#fff" font-size="12">1</text>' +
+    '<rect x="306" y="66" width="46" height="16" rx="6" fill="#1f9d6b"/>' +
+    '<circle cx="364" cy="74" r="11" fill="#1f9d6b"/><text x="360" y="78" fill="#fff" font-size="12">6</text>' +
+    '<circle cx="160" cy="165" r="34" fill="#0c1017" stroke="#2f7dd1" stroke-width="2"/><circle cx="160" cy="165" r="8" fill="#2f7dd1"/>' +
+    '<circle cx="300" cy="165" r="34" fill="#0c1017" stroke="#1f9d6b" stroke-width="2"/><circle cx="300" cy="165" r="8" fill="#1f9d6b"/>' +
+    '<circle cx="160" cy="206" r="10" fill="#2f7dd1"/><text x="156" y="210" fill="#fff" font-size="11">5</text>' +
+    '<circle cx="230" cy="104" r="9" fill="#ff5c5c"/><text x="226" y="108" fill="#fff" font-size="11">2</text>' +
+    '<g fill="#9aa7b4"><rect x="210" y="122" width="8" height="6" rx="2"/><rect x="222" y="122" width="8" height="6" rx="2"/><rect x="234" y="122" width="8" height="6" rx="2"/><rect x="246" y="122" width="8" height="6" rx="2"/></g>' +
+    '<circle cx="272" cy="125" r="9" fill="#9aa7b4"/><text x="268" y="129" fill="#0c1017" font-size="11">9</text>' +
+    '<rect x="206" y="142" width="46" height="14" rx="7" fill="#ffb02e"/><circle cx="246" cy="149" r="5" fill="#fff"/>' +
+    '<circle cx="272" cy="149" r="9" fill="#ffb02e"/><text x="268" y="153" fill="#0c1017" font-size="11">3</text>' +
+    '<circle cx="190" cy="224" r="13" fill="#ff5c5c"/><text x="185" y="228" fill="#fff" font-size="12">4</text>' +
+    '<circle cx="230" cy="224" r="11" fill="#7a5cff"/><text x="226" y="228" fill="#fff" font-size="11">7</text>' +
+    '<circle cx="272" cy="224" r="11" fill="#27c093"/><text x="268" y="228" fill="#fff" font-size="11">8</text>' +
+    '</svg>';
+
+  var svgGrip =
+    '<svg class="diagram" viewBox="0 0 420 200" role="img" aria-label="Как да държиш дистанционното">' +
+    '<rect x="120" y="55" width="180" height="90" rx="20" fill="#2b3947" stroke="#9aa7b4" stroke-width="2"/>' +
+    '<circle cx="160" cy="100" r="16" fill="#0c1017" stroke="#2f7dd1" stroke-width="2"/>' +
+    '<circle cx="260" cy="100" r="16" fill="#0c1017" stroke="#1f9d6b" stroke-width="2"/>' +
+    '<ellipse cx="160" cy="86" rx="11" ry="19" fill="#f0c9a0"/>' +
+    '<ellipse cx="260" cy="86" rx="11" ry="19" fill="#f0c9a0"/>' +
+    '<path d="M120 145 q-42 -8 -36 -62" stroke="#f0c9a0" stroke-width="14" fill="none" stroke-linecap="round"/>' +
+    '<path d="M300 145 q42 -8 36 -62" stroke="#f0c9a0" stroke-width="14" fill="none" stroke-linecap="round"/>' +
+    '<text x="118" y="180" fill="#9aa7b4" font-size="12">палци върху стиковете · показалци на раменете</text>' +
     '</svg>';
 
   /* ---------- Данни за стъпките ---------- */
@@ -101,19 +112,25 @@
       ]
     },
     {
-      id: "phonecable", emoji: "📱", tab: "Кабел", title: "Кабелът към телефона", hue: 228,
+      id: "rc", emoji: "🎮", tab: "��истанционно", title: "Дистанционно + DJI Fly", hue: 260,
       blocks: [
-        { type: "diagram", svg: svgPhoneCable },
-        { type: "tip", html: "<b>Не търсиш отделно външно капаче.</b> Кабелът е скрит <b>в горния държач за телефона</b> на дистанционното. Като издърпаш държача нагоре, ще видиш късото кабелче, прибрано в каналче." },
-        { type: "check", title: "Стъпки", items: ["Издърпай горния държач за телефона нагоре", "Виж прибрания кабел от вътрешната страна", "Хвани само буксата и я издърпай внимателно навън", "Пъхни телефона в държача", "Включи буксата в телефона"] },
-        { type: "warn", html: "⚠️ Не дърпай силно по средата на кабела и не отваряй корпуса с нокът — кабелът не е под отделно капаче, а е прибран в самия държач." }
+        { type: "check", title: "Подготовка", items: ["Завий джойстиците на местата им", "Инсталирай DJI Fly (за RC-N3 — на телефона)", "RC-N3: издърпай държача и свържи кабела", "Android: избери „само зареждане“ при USB запитване", "Включи дистанционното; изправи антените"] },
+        { type: "tip", html: "🔗 Комплектите идват свързани. Повторно: DJI Fly → камера → „Connect to Aircraft“, задръж бутона на дрона 4+ сек." }
       ]
     },
     {
-      id: "rc", emoji: "🎮", tab: "Дистанционно", title: "Дистанционно + DJI Fly", hue: 260,
+      id: "rcbuttons", emoji: "🎛️", tab: "Бутони RC", title: "Дистанционно — всяко копче", hue: 235,
       blocks: [
-        { type: "check", title: "Подготовка", items: ["Завий джойстиците на местата им", "Инсталирай DJI Fly (за RC-N3 — на телефона)", "Издърпай горния държач и свържи кабела към телефона", "Android: избери „само зареждане“ при USB запитване", "Включи дистанционното; изправи антените"] },
-        { type: "tip", html: "🔗 Комплектите идват свързани. Повторно: DJI Fly → камера → „Connect to Aircraft“, задръж бутона на дрона 4+ сек." }
+        { type: "diagram", svg: '<img class="diagram" src="./rc_labeled.jpg" alt="DJI RC-N3 с надписани бутони" loading="lazy" />' },
+        { type: "tip", html: "📸 Това е <b>твоето дистанционно</b> с надписани бутони. Номерата отговарят на списъка по-долу и на схемата." },
+        { type: "diagram", svg: svgRcButtons },
+        { type: "check", title: "RC-N3 — какво прави всеки бутон", items: ["1 · Колело за гимбал (ляво рамо) — накланя камерата нагоре/надолу", "2 · Захранване — натисни веднъж = батерия; натисни и задръж = вкл./изкл.", "3 · Превключвател за режим — Cine / Normal / Sport", "4 · Пауза / RTH — натисни = спира и виси; задръж = връща се у дома; пак = отказ", "5 · Лостчета (стикове) — управляват полета (свалят се за прибиране)", "6 · Затвор / запис (дясно рамо) — снимка и старт/стоп видео", "7 · Снимка/видео — превключва между фото и видео режим", "8 · Програмируем бутон — центрира гимбала / гледа надолу (сменя се в DJI Fly)", "9 · LED индикатори — батерия на дистанционното"] },
+        { type: "check", title: "При ИЗЛИТАНЕ — какво пипаш", items: ["Превключвателят на режим (3) → Normal или Cine", "Авто-излитане: бутонът за излитане е в DJI Fly на екрана, не е копче", "Ръчно: двата стика (5) надолу-навътре (CSC) за старт на моторите", "Дръж палец близо до Пауза/RTH (4) за всеки случай"] },
+        { type: "check", title: "При ЛЕТЕНЕ — какво пипаш", items: ["Десен стик (5) — накъде лети дронът", "Ляв стик (5) — височина и завъртане", "Колело за гимбал (1) — накланяй камерата за кадъра", "Затвор/запис (6) — снимки и видео в движение", "Пауза (4) — моментално спиране и висене", "RTH (4, задръж) — връща се сам у дома"] },
+        { type: "diagram", svg: svgGrip },
+        { type: "check", title: "Как да държиш дистанционното", items: ["Дръж го с двете ръце, на нивото на гърдите", "Палци върху двата стика (или щипка с палец и показалец)", "Показалци върху раменните колела/бутони (1 и 6)", "Телефонът/екранът сочи към теб, антените — нагоре към дрона", "Не покривай горната част (там са антените)", "Закрепи телефона здраво ПРЕДИ излитане"] },
+        { type: "tip", html: "🎮 <b>RC 2 (с екран) — разлики:</b> има <b>Camera Control Dial</b> (zoom/EV/ISO), отделни <b>Focus/Shutter</b> и <b>Record</b> бутони и два програмируеми <b>C1</b> и <b>C2</b> отзад (центриране на гимбал, EV +/-, AE Lock, Cruise Control и др.)." },
+        { type: "warn", html: "⚠️ RC-N3 има само ЕДИН програмируем бутон. C1/C2 са на RC 2, не на RC-N3." }
       ]
     },
     {
@@ -169,7 +186,7 @@
       id: "camera", emoji: "🎥", tab: "Камера", title: "Камера по време на полет", hue: 322,
       blocks: [
         { type: "diagram", svg: svgController },
-        { type: "check", title: "Управление на камерата", items: ["Ляво колелце — наклон нагоре/надолу", "Дясно колелце — цифров zoom", "Бутон снимка / бутон запис", "C1 / C2 (отзад) — програмируеми бутони"] }
+        { type: "check", title: "Управление на камерата", items: ["Ляво колелце — наклон нагоре/надолу", "Дясно колелце — цифров zoom", "Бутон снимка / бутон запис", "Програмируем бутон (RC-N3) или C1·C2 (RC 2) — напр. центриране на гимбала"] }
       ]
     },
     {
@@ -414,12 +431,3 @@
 
   render();
 })();
-
-/* PWA / offline support */
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function () {
-    navigator.serviceWorker.register("./sw.js").catch(function (error) {
-      console.warn("Service Worker registration failed:", error);
-    });
-  });
-}
